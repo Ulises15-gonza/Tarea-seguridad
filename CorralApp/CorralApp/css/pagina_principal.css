@@ -1,0 +1,124 @@
+body{
+    background-color: #F5F5DC;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+header {
+    position: relative;
+    background-color: #5D4037;
+    padding: 15px 20px;
+    text-align: center;
+    align-items: center;
+    color: white;
+
+}
+
+.logo{
+   position: absolute;
+   left: 20px;
+   top: 50%;
+   transform: translateY(-50%);
+   width: 95px;      
+   height: 100px;
+   
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background-color: white;
+    color:black;
+}
+
+#cuerpo{
+    float:left;
+    width: 100%;
+    background-color: #F5F5DC;
+}
+
+.cerdo{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin: 80px;
+    margin-top: 60px;
+    width: 378px;
+    height: 270px;
+}
+
+.datos{
+    display: flex;
+    margin: 80px;
+    margin-top: 60px;
+    width: 378px;
+    height: 270px;
+    background-color: #F5F5DC;
+}
+
+form{
+    display: flex;
+    width: 378px;
+    height: 270px;
+    background-color: #F5F5DC;
+    
+    justify-content: center;
+    text-align: center;
+    size: 14px;
+    
+}
+
+.resultados{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-left: 60px;
+}
+
+.tarjeta-lote{
+    background: #F5F5DC;
+    border: 2px solid #5D4037;
+    border-radius: 15px;
+    padding: 15px 20px;
+    width: 260px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.15);
+    font-size: 15px;
+    size: 12px;
+}
+
+.tarjeta-lote p{
+    margin: 6px 0;
+}
+
+.tarjeta-lote strong{
+    color: #5D4037;
+}
+
+.tarjeta-lote:hover{
+    transform: scale(1.03);
+    transition: 0.2s;
+}
